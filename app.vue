@@ -2,7 +2,8 @@
 
   <!-- Nuxt是基于文件路由系统  -->
   <!--NuxtPage 相当于routerview  -->
-  <NuxtPage />
+  <!-- keepalive 缓存页面 -->
+  <NuxtPage :keepalive="{max: 10}" />
 
 
 </template>
