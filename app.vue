@@ -18,3 +18,10 @@ useSeoMeta({
 })
 
 </script>
+<style>
+:root{
+  /* css  变量设置组件库主题 */
+  --van-primary-color:#fb7299;
+}
+
+</style>
